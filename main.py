@@ -186,7 +186,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     data = {
         "touser": to_user,
         "template_id": config["template_id"],
-        "url": "http://www.52miaowang.com/pybb/0524/32/html/",
+        "url": "https://derekliu12138.github.io/weixin-push-message-web/",
         "topcolor": "#FF0000",
         "data": {
             "date": {
